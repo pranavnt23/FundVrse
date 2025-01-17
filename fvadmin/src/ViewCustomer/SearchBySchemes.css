@@ -1,0 +1,80 @@
+/* Styles specific to SearchByScheme component */
+.search-by-scheme-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.search-by-scheme-container h3 {
+    text-align: center;
+}
+
+.search-by-scheme-container input {
+    width: calc(100% - 22px);
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.search-by-scheme-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.search-by-scheme-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.error-message {
+    color: #dc3545;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.customer-table th, .customer-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.customer-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+.customer-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.customer-table tr:hover {
+    background-color: #eaeaea;
+}
+
+/* New additions for button spacing and horizontal scroll */
+.button-container {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+    margin-top: 10px; /* Space above the buttons */
+}
+
+.table-responsive {
+    overflow-x: auto; /* Enables horizontal scrolling for the table */
+    margin-top: 20px; /* Space above the table */
+}
